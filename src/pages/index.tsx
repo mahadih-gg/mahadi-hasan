@@ -1,7 +1,10 @@
+import Navigation from "@/components/Navigation";
+
 export default function Home() {
   return (
-    <div>
+    <main>
+      <Navigation />
       <h1>Starting Portfolio</h1>
-    </div>
+    </main>
   );
 }
